@@ -1,0 +1,21 @@
+{
+  "name": "village-life-gameserver",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "check": "tsc --noEmit",
+    "test": "tsx test/multiplayer.test.ts"
+  },
+  "dependencies": {
+    "@colyseus/ws-transport": "^0.16.5",
+    "@supabase/supabase-js": "^2.119.0",
+    "@types/node": "^26.6.6",
+    "colyseus": "^0.16.5",
+    "dotenv": "^18.0.9",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
